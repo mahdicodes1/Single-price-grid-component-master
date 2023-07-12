@@ -7,7 +7,7 @@
 
 # **Challenge Name**
 
-- ### [Single price grid component master](https://www.frontendmentor.io/solutions/qr-code-component-main-p4wqKZiXKG)
+- ### [Single price grid component master](https://www.frontendmentor.io/solutions/single-price-grid-component-master-Yn6QiquXZj)
 
 <br>
 
@@ -21,7 +21,7 @@ The designs were created to the following widths:
 
 ## **Links**
 
-- Live Site URL: [click here](https://mahdicodes1.github.io/qr-code-component-main/)
+- Live Site URL: [click here](https://mahdicodes1.github.io/Single-price-grid-component-master/)
 
 <br>
 
