@@ -135,107 +135,77 @@ main > .Why > ul > li {
 /*  ---------------------- Media Query -----------------------*/
 @media (min-width: 768px) {
   main {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.831fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
-  height: 82vh;
-  margin: 73px 30px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-main section {
-  display: grid;
-  align-items: center;
+    height: 474px;
+    width: 635px;
+  }
+  main section {
+    padding-right: 0px;
+    padding-left: 41px;
+  }
+  main > .Join {
+    grid-column: 1/3;
+    grid-template-rows: 1fr 0.35fr 1fr;
 
-  padding-right: 20px;
-  padding-left: 20px;
-}
-main > .Join {
-  grid-column: 1/3;
-  grid-template-rows: 1fr 1fr 2fr;
+    padding-bottom: 0px;
+  }
+  main > .Join > h1 {
+    margin-top: 0.95rem;
+    font-size: 1.5rem;
+    align-self: center;
+  }
+  main > .Join > h2 {
+    align-self: start;
 
-  background-color: #ffffff;
-  padding-bottom: 30px;
-}
-main > .Join > h1 {
-  color: var(--Cyan);
-  font-size: 1.23rem;
-  word-spacing: 2px;
-  align-self: end;
-}
-main > .Join > h2 {
-  align-self: end;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  main > .Join > p {
+    align-self: start;
+    margin-top: 0;
+    margin-right: 4rem;
+    font-size: 1rem;
+  }
 
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.4rem;
-  color: var(--Bright-Yellow);
-}
-main > .Join > p {
-  margin-top: 1rem;
-  color: var(--Grayish-Blue);
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-}
+  main > .Subscription {
+    grid-column: 1/2;
+  }
+  main > .Subscription > h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-self: end;
+    margin-bottom: 0.55rem;
+  }
+  main > .Subscription > .price {
+    align-self: end;
+    margin-bottom: 0.4rem;
+  }
+  main > .Subscription > .price > strong {
+    place-items: center;
 
-main > .Subscription {
-  grid-template-rows: 0.65fr 0.75fr 1fr;
-  background-color: var(--Cyan);
-  color: #ffffff;
-}
-main > .Subscription > h3 {
-}
-main > .Subscription > .price {
-  align-self: start;
-}
-main > .Subscription > .price > strong {
-  display: flex;
-  place-items: center;
+    font-size: 2rem;
+  }
+  main > .Subscription > .price > small {
+    font-size: 1rem;
+  }
+  main > .Subscription > button {
+    width: 235px;
+    margin-bottom: 1.1rem;
+  }
 
-  margin-bottom: 10px;
+  main > .Why {
+    grid-column: 2/3;
+  }
+  main > .Why > h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+  main > .Why > ul > li {
+    margin-top: 0.18rem;
 
-  font-size: 2rem;
-}
-main > .Subscription > .price > strong > span {
-  margin-left: 10px;
-
-  font-size: 1rem;
-  color: var(--Light-Gray);
-}
-main > .Subscription > .price > small {
-  font-size: 1rem;
-}
-main > .Subscription > button {
-  align-self: center;
-
-  background-color: var(--Bright-Yellow);
-  width: 270px;
-  border: unset;
-  border-radius: 5px;
-  padding: 0.91rem;
-
-  font-family: "Karla", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-main > .Why {
-  background-color: var(--Cyan-Light);
-  color: var(--Light-Gray);
-}
-main > .Why > h3 {
-  align-self: end;
-}
-main > .Why > ul {
-  align-self: start;
-
-  margin-top: 10px;
-}
-main > .Why > ul > li {
-  list-style: none;
-  margin-top: 2px;
-
-  font-size: 0.95rem;
-}
+    font-weight: 400;
+  }
 }
